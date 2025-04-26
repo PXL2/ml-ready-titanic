@@ -5,7 +5,7 @@ Este projeto realiza uma análise exploratória completa e pré-processamento do
 
 ## 🔍 Principais Funcionalidades
 
-## 🛠️ Funcionalidades
+### 🛠️ Funcionalidades
 - **Limpeza de Dados**:
   - Tratamento de valores faltantes em Age, Embarked e Cabin
   - Remoção de outliers na tarifa (Fare)
