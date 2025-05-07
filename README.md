@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral
 Este projeto realiza uma análise exploratória completa e pré-processamento do dataset Titanic, preparando os dados para modelos preditivos de machine learning. O trabalho foi desenvolvido em colaboração por [Pedro Lima](https://github.com/PXL2) e [Carla Santana](https://github.com/carlaasantana).
-
+## Em Desenvolvimento
 ## 🔍 Principais Funcionalidades
 
 ### 🛠️ Funcionalidades
