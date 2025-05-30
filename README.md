@@ -24,6 +24,7 @@ A distribuição original da variável alvo no conjunto de treino mostra um desb
 ![Distribuição da Variável Alvo (y_train) - ANTES do SMOTE](assets/images/distribuicao_antes_smote.png)
 *Figura 1: Distribuição da variável alvo antes da aplicação do SMOTE.*
 
+
 **Depois do SMOTE:**
 Após a aplicação do SMOTE, as classes no conjunto de treino ficam balanceadas.
 
@@ -34,3 +35,28 @@ Após a aplicação do SMOTE, as classes no conjunto de treino ficam balanceadas
 * Transformação de variáveis categóricas (`Sex`, `Embarked`, `Pclass`, `Title`) em formato numérico adequado para os algoritmos de machine learning. *(Nos scripts que geramos, usamos principalmente LabelEncoding seguido de StandardScaler no pipeline de treino).*
 
 ## 📁 Estrutura do Projeto
+titanic-preprocess/
+├── dados/
+│   ├── brutos/
+│   │   └── Titanic-Dataset.csv  # Dataset original
+│   └── processados/
+│       └── processed_titanic_data.csv # Dados limpos e pré-processados (gerado por processados.py)
+├── ia-pipeline/ # (Se você estiver usando a estrutura que definimos para os scripts Python)
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── Titanic-Dataset.csv
+│   │   └── processed/
+│   │       ├── processados.py
+│   │       ├── processed_titanic_data.csv
+│   │       └── treino/
+│   │           └── train.py
+│   ├── models/ # Modelos treinados
+│   └── models_cache/ # Cache do GridSearchCV
+├── notebooks/          # Jupyter notebooks para análise exploratória e desenvolvimento inicial
+│   └── dados.ipynb
+├── src/                # Scripts Python (se estiver usando a estrutura da imagem do README original)
+│   └── preprocess.py   # (Ajustar conforme a localização real dos seus scripts)
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
