@@ -20,15 +20,13 @@ Para lidar com o desbalanceamento na variável alvo (`Survived`), utilizamos a t
 
 **Antes do SMOTE:**
 A distribuição original da variável alvo no conjunto de treino mostra um desbalanceamento entre as classes "Não Sobreviveu" e "Sobreviveu".
-
-![Distribuição da Variável Alvo (y_train) - ANTES do SMOTE](assets/images/distribuicao_antes_smote.png)
+![Distribuição da Variável Alvo (y_train) - ANTES do SMOTE](ia-pipeline/assets/imagens/Antes%20do%20SMOTE.png)
 *Figura 1: Distribuição da variável alvo antes da aplicação do SMOTE.*
 
 
 **Depois do SMOTE:**
 Após a aplicação do SMOTE, as classes no conjunto de treino ficam balanceadas.
-
-![Distribuição da Variável Alvo (y_train_smote) - DEPOIS do SMOTE](assets/images/distribuicao_depois_smote.png)
+![Distribuição da Variável Alvo (y_train_smote) - DEPOIS do SMOTE](ia-pipeline/assets/imagens/Depois%20do%20SMOTE.png)
 *Figura 2: Distribuição da variável alvo após a aplicação do SMOTE.*
 
 ### 🔡 Codificação
